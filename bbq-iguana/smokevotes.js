@@ -115,7 +115,7 @@ function writeMarkdown(witnesses) {
       var voters = '';
       witnesses[prop].voters.sort(compare)
       for(var voter of witnesses[prop].voters.reverse()) {
-        voters += format('<a href="https://smoke.io/{}" title="{}">{}</a>', voter.voter, voter.weight, voter.voter) + ' '
+        voters += format('<a href="https://smoke.io/{}" title="{}" target="_blank">{}</a>', voter.voter, voter.weight, voter.voter) + ' '
       }
       txt += format('<tr>\n<td>{}</td><td>{}</td><td>{}</td><td>{}</td><td>{}</td></tr>\n',
         witnesses[prop].rank, witnesses[prop].name, witnesses[prop].votes, witnesses[prop].weighted_vote, voters)

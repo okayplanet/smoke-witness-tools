@@ -75,12 +75,13 @@ recursiveHistory = function(account, start = -1, step = 1, ret = []) {
   });
 }
 
-//recursiveHistory('emeraldtreasury')
+recursiveHistory('emeraldtreasury')
 
-
+/*
 wls.api.getActiveWitnesses(function(err, result) {
   for(var i = 0; i < result.length; i++) {
     recursiveHistory(result[i])
     //console.log(result[i])
   }
 });
+*/

@@ -1,0 +1,56 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  height: 100%
+}
+
+.bar {
+  fill: #4BB331
+}
+
+.bar:hover {
+  fill: #003366
+}
+
+
+.line {
+  fill: #FFFFFF;
+  stroke: #4BB331;
+  stroke-width: 2px;
+}
+
+.area {
+  fill: #4BB331;
+  stroke: #4BB331;
+}
+
+.axis {
+  font: 40px 'Fira Sans', sans-serif;
+}
+
+a:link {
+    color: #4BB331;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.text {
+  fill: white;
+  font-family: sans-serif
+}
+
+div.plot {
+    max-width: 500px;
+    margin: auto;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
